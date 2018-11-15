@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColorOfFortInformationView"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".YashwantgarhActivity">
+
+
+        <include layout="@layout/content_main"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewYashwantgarhInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/backgroundCardViewOfHistory"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/historytitleYashwantgarh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="History"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/historyTextYashwantgarh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/historytitleYashwantgarh"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/raigarh_history"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:id="@+id/openTimingYashwantgarh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="Opening Time: 9 AM to 5 PM"
+                        android:layout_below="@+id/historyTextYashwantgarh"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/buttonYashwantgarhMap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/openTimingYashwantgarh"
+                        android:layout_marginLeft="140dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="go to map" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>

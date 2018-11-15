@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </android.support.design.widget.AppBarLayout>
+-->
+    <include layout="@layout/content_main" />
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+-->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewRaigadh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image5"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/raigadh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Raigadh Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName5"
+                android:id="@+id/devProfession5"
+                android:text="      -Raigadh"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:textColor="@color/fortDestinationColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewLohagadh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image1"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/lohagarh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Lohagadh Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                 />
+
+            <TextView
+                android:layout_below="@+id/devName1"
+                android:id="@+id/devProfession1"
+                android:text="      -Lonavala"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:textColor="@color/fortDestinationColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cardViewShanivarwada"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image6"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/shaniwarda"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Shanivarwada Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName6"
+                android:id="@+id/devProfession6"
+                android:text="      -Pune"
+                android:textSize="16sp"
+                android:textColor="@color/fortDestinationColor"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewSindhugarh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image8"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/sindhugarh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Sindhugarh Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName8"
+                android:id="@+id/devProfession8"
+                android:text="      -Malvan"
+                android:textColor="@color/fortDestinationColor"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewTorna"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image11"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/torna"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Torna Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName11"
+                android:id="@+id/devProfession11"
+                android:text="      -Pune"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/fortDestinationColor"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewPanhala"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image4"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/panhala1"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Panhala Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName4"
+                android:id="@+id/devProfession4"
+                android:text="      -Panhala"
+                android:textColor="@color/fortDestinationColor"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewJanjira"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image2"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/janjira"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Janjira Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName2"
+                android:id="@+id/devProfession2"
+                android:text="      -Murud"
+                android:textColor="@color/fortDestinationColor"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewDaulatabad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image3"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/daulatabad"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Daulatabad Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName3"
+                android:id="@+id/devProfession3"
+                android:text="      -Daulatabad"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/fortDestinationColor"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cardViewYashwantgarh"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image7"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/yashwantgarh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Yashwantgarh Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName7"
+                android:id="@+id/devProfession7"
+                android:textColor="@color/fortDestinationColor"
+                android:text="      -Redi"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:id="@+id/cardViewSinhagarh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image9"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/sinhagarh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Sinhagadh Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName9"
+                android:id="@+id/devProfession9"
+                android:text="      -Pune"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/fortDestinationColor"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cardViewPartapgarh"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image10"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/partapgarh"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Pratapgad Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName10"
+                android:id="@+id/devProfession10"
+                android:text="      -Satara"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:textColor="@color/fortDestinationColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardElevation="3dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cardViewKandhar"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:src="@drawable/kandhar"
+                android:layout_alignParentRight="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/devName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Kandhar Fort"
+                android:textColor="@color/fortNameColor"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_below="@+id/devName12"
+                android:id="@+id/devProfession12"
+                android:text="      -Nanded"
+                android:textColor="@color/fortDestinationColor"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
+</ScrollView>

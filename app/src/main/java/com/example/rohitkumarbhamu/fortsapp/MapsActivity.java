@@ -30,7 +30,7 @@ public class MapsActivity extends FragmentActivity implements OnStreetViewPanora
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-*/
+
 
         //obtain the StreetViewPanoramaFragment and get notified when the map is ready used to be used
         StreetViewPanoramaFragment streetViewPanoramaFragment =
@@ -38,7 +38,7 @@ public class MapsActivity extends FragmentActivity implements OnStreetViewPanora
                         .findFragmentById(R.id.streetviewpanorama);
         streetViewPanoramaFragment.getStreetViewPanoramaAsync(this);
 
-
+*/
 
     }
 
